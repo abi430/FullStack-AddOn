@@ -1,0 +1,25 @@
+body{
+    background-image: linear-gradient(rgb(243, 39, 39), rgb(36, 36, 235), rgb(6, 185, 102),+ rgb(241, 53, 163));
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh ;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border:2px solid rgb(243, 166, 243);
+}
+.one img{
+    border-radius: 100px 100px 0px 100px;
+    float: left;
+}
+.two img{
+    border-radius: 100px 100px 100px 0px;
+}
+.three img{
+    border-radius: 100px 0px 100px 100px;
+    float: left;
+}
+.four img{
+    border-radius: 0px 100px 100px 100px;
+}

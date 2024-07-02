@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+       table tr:nth-child(odd){
+            background-color: blanchedalmond;
+        }
+
+        table, th, tr, td{
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+            width: fit-content;
+            margin: auto;
+            empty-cells: hide;
+            caption-side: top;
+        }
+
+        th{
+            background-color: bisque;
+        }
+
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Student Details</caption>
+        <tr>
+            <th>Name</th>
+            <th>Subjact</th>
+            <th>Mark</th>
+        </tr>
+        <tr>
+            <td>101</td>
+            <td>Abi</td>
+            <td>98</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>Akshatha</td>
+            <td>99</td>
+        </tr>
+        <tr>
+            <td>103</td>
+            <td>Avitha</td>
+            <td>95</td>
+        </tr>
+        <tr>
+            <td>104</td>
+            <td>Avi</td>
+            <td>98</td>
+        </tr>
+        <tr>
+            <td>105</td>
+            <td>Akshu</td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>

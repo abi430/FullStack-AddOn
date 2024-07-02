@@ -1,0 +1,86 @@
+body{
+    background-image: linear-gradient(#4dd399, #98bba9, #668c96);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+i{
+    font-size:xx-large;
+    color: rgb(0, 77, 41);
+}
+li{
+    list-style: none;
+    padding: 0px 10px;
+    transition-duration: 1s;
+}
+a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(1, 77, 41);
+
+}
+li:hover{
+    border-bottom: 2px solid rgb(1, 90, 38);
+    text-shadow: 8px 8px 10px rgb(0, 107, 45);
+}
+header{
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    background-color: rgb(84, 158, 15);
+    padding: 5px 20px;
+    border-radius: 20px;
+
+}
+li:active{
+    background-color: rgb(43, 226, 165);
+}
+ul{
+    display: flex;
+    margin: 4px;
+}
+:target{
+    background-color: rgb(230, 252, 213);
+    color: rgb(18, 151, 84);
+    padding: 0px;
+    transition-duration: 500ms;
+}
+h1{
+    color: rgb(2, 100, 54);
+    padding: 10px;
+}
+
+img{
+    height: 500px;
+    width: 400px;
+    object-fit: scale-down;
+    object-position: right;
+    margin: 3px;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-div{
+    top: 100px;
+    left: -10px;
+    position: absolute;
+    animation-name: wheelchair;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+@keyframes wheelchair{
+    from{
+
+    }
+    to{
+        transform: translateX(100vw);
+    }
+}
+
+

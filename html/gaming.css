@@ -1,0 +1,120 @@
+*{
+    font-family: "Lilita One", sans-serif;
+}
+body{
+    background-image: repeating-radial-gradient(#4C3BCF,#4B70F5,#3DC2EC);
+    color: white;
+}
+span{
+    font-size: 2em;
+}
+i{
+    font-size: x-large;
+}
+.company-name{
+    font-size: 3em;
+    font-variant: small-caps;
+}
+ul{
+    display: flex;
+    margin: 4px;
+}
+li{
+    list-style-type: none;
+    padding: 0px 10px;
+    
+}
+a{
+    text-decoration-line: none;
+    color: white;
+    padding: 10px;
+    font-weight: normal;
+    font-size: large;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    align-items: center;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+main{
+    display: flex;
+    margin: 0px auto;
+}
+h1{
+    font-size: 3em;
+}
+.one{
+    padding: 5px;
+    margin-top: 50px;
+    height: 400px;
+    width: 800px;
+}
+img{
+    height: 500px;
+    width: 400px;
+    border-radius: 30px;
+}
+.img{
+    margin-top: 20px;
+    float: right;
+    padding: 30px;
+}
+input, button{
+    border: none;
+}
+button{
+    background-color: crimson;
+    border-radius: 30px;
+    padding: 5px;
+    height: inherit;
+}
+input{
+    padding-left: 10px;
+    height: 100%;
+    outline: none;
+    border-radius: 30px;
+}
+div .search{
+    outline: none;
+    width: fit-content;
+    border-radius: 30px;
+    padding: 5px;
+    height: 30px;
+    background-color: whitesmoke;
+}
+button:active{
+    initial-value: 0.94;
+}
+.first-div{
+    border: none;
+    display: flex;
+    margin: 0px auto;
+
+}
+.second-div{
+    background-color: white;
+    color: #4B70F5;
+    border: none;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    flex-direction: column;
+    display: flex;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+

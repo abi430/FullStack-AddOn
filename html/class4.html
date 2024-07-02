@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position,keyframes</title>
+    <style>
+        .ball{
+            height:100px;
+            width: 100px;
+            background-image: radial-gradient(rgb(71, 207, 185),rgb(22, 140, 187),rgb(2, 88, 199));
+            border-radius: 50%;
+            animation-name: bat;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes bat{
+            0%{
+                transform: translateX(100px) translateY(-100px);
+            }
+            20%{
+                transform: translateX(100px) translateY(295px);
+            }
+            40%{
+                transform: translateX(120px) translateY(200px);
+            }
+            60%{
+                transform: translateX(150px) translateY(180px);
+            }
+            80%{
+                transform: translateX(180px) translateY(200px);
+
+            }
+            100%{
+                transform: translateX(190px) translateY(100vh);
+            }
+        }
+        .table{
+            height: 40px;
+            width: 200px;
+            background-image: linear-gradient(to top,rgb(73, 41, 3),rgb(247, 140, 41),rgb(201, 129, 36));
+            border-radius: 20px;
+            position: absolute;
+            top: 400px;
+            left: -10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="ball"></div>
+    <div class="table"></div>
+</body>
+</html>
+
+
